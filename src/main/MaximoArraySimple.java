@@ -3,7 +3,7 @@ public class MaximoArraySimple {
         int[] nums = {6, 7, 3, 1, 8, 4, 13, 110, 32, 65};
         int max = 0;
 
-        for (int i = 1 ; i < nums.length ; i++) {
+        for (int i = 0 ; i < nums.length ; i++) {
 
             if (nums[i] > max) {
                 max = nums[i];
