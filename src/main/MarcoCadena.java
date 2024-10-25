@@ -31,7 +31,7 @@ public class MarcoCadena {
 
         for (int i = 0 ; i < palabros.length ; i++) {
             cuadro += "\n";
-            cuadro = cuadro + "* " + palabros[i] + (palabros[i].length());
+            cuadro = cuadro + "* " + palabros[i];
         }
 
         cuadro = cuadro + "\n" + asteriscos;
